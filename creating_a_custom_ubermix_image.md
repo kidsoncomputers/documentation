@@ -203,7 +203,7 @@ power off.
 After all customizations are complete, you may now write the new image out to USB key. The new image file will 
 require a USB flash drive that is 16GB or larger to proceed. 
  
-# Prepare USB Key 
+## Prepare USB Key 
 
 Format the 16GB+ USB key with the default Ubermix 2.2L image (approximately 3.1GB). Instructions are here: 
 http://ubermix.org/download.html 
