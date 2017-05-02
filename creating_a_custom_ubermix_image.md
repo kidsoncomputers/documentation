@@ -43,9 +43,9 @@
 * Press CTRL+ALT+T to open a terminal window. 
 * Update packages:
   ```
-   sudo apt­mark hold grub2­common grub­common grub­pc grub­pc­bin 
-   sudo apt­get update 
-   sudo apt­get upgrade
+   sudo apt-mark hold grub2-common grub-common grub-pc grub-pc-bin 
+   sudo apt-get update 
+   sudo apt-get upgrade
   ```
 * This step can take 10-20 minutes. 
  
@@ -54,17 +54,17 @@
 * Press CTRL+ALT+T to open a terminal window. 
 * Remove the newer broadcom drivers by typing 
   ``` 
-  sudo apt­get purge bcmwl-kernel-source 
+  sudo apt-get purge bcmwl-kernel-source 
   ```
   
   Install b43 legacy:
   ```
-  sudo apt­get install firmware-b43legacy-installer 
+  sudo apt-get install firmware-b43legacy-installer 
   ```
   
   Install b43:
   ```
-  sudo apt­get install firmware­b43­installer 
+  sudo apt-get install firmware-b43-installer 
   ```
 
 * Restart and re-enable read-write mode following "Prepare For Customization" steps above. 
@@ -77,7 +77,7 @@
 * Open Activities menu, type Text Editor, paste list of packages into document. Save as /tmp/packagelist_es.txt 
 * Open Terminal (Ctrl+Alt+T)
    ```
-   cat /tmp/packagelist_es.txt | xargs sudo apt­get -y install
+   cat /tmp/packagelist_es.txt | xargs sudo apt-get -y install
    ```
    
   This will download and install educational packages. May take several hours depending on connection 
@@ -101,7 +101,7 @@ speed.
   ```
   cd /tmp/ 
   wget http://www.kidsoncomputers.org/data/backgrounds/ubermix-2.2L-koc-es-background.jpg 
-  sudo cp ubermix­2.2L-koc-es-background.jpg /usr/share/backgrounds 
+  sudo cp ubermix-2.2L-koc-es-background.jpg /usr/share/backgrounds 
   sudo chmod a+rw /usr/share/backgrounds/*
   ```
 * Update background 
@@ -177,18 +177,18 @@ power off.
  
 ## Apply additional updates
 
-* Open a terminal (“Ctrl­Alt­T”) 
+* Open a terminal (“Ctrl-Alt-T”) 
 * Type:
   ```
-  sudo apt­get update 
-  sudo apt­get upgrade 
+  sudo apt-get update 
+  sudo apt-get upgrade 
   ```
 * Purge package files
 * Save disk space in the final image by cleaning up the apt cache. Use these commands: 
   ```
-  sudo apt­get clean 
-  sudo apt­get autoclean 
-  sudo apt­get autoremove
+  sudo apt-get clean 
+  sudo apt-get autoclean 
+  sudo apt-get autoremove
   ```
   
 ## Verify
