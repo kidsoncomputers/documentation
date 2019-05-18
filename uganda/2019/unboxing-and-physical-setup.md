@@ -3,7 +3,8 @@
 
 #### Kit
 The Rapsberry Pi Kits being used for KoC/Mwebaza schools
-in Uganda is:  [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Edition, Premium Black Case)](https://www.amazon.com/dp/B07BCC8PK7)
+in Uganda is:
+* [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Edition, Premium Black Case)](https://www.amazon.com/dp/B07BCC8PK7)
 
 #### Setup
 
