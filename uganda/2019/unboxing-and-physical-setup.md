@@ -8,30 +8,43 @@ in Uganda is:  [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Editi
 #### Setup
 
 ----
-Unboxed:
+##### Unboxed
+
+![](images/01-rpi-unbox.jpg)
 
 ----
-Before Adding Heat Sinks:
+##### Before Adding Heat Sinks
+
+![](images/02-rpi-heatsinks-before.jpg)
 
 ----
-After 1st Heat Sink:
+##### After 1st Heat Sink
+
+![](images/03-rpi-heatsinks-1.jpg)
 
 ----
-After 2nd Heat Sink:
+##### After 2nd Heat Sink
+
+![](images/04-rpi-heatsinks-2.jpg)
 
 ----
-In case:
+##### In case
+
+![](images/05-rpi-case-2.jpg)
 
 ----
-Complete:
+##### Complete
+
+![](images/06-rpi-case-3.jpg)
 
 ----
-Connected to USB and HDMI:
+##### Connected to USB keyboard/mouse, HDMI, and power
+
+![](images/07-rpi-complete-w-box.jpg)
 
 
 ----
-Contents packaged in zip-lock bag:
-
+##### Contents packaged in zip-lock bag
 
 Components in bag:
 * Raspberry Pi in Case
@@ -42,5 +55,8 @@ Components in bag:
 * Power supply (leave it in the power supply box, since the cord is messy)
 
 
+![](images/08-contents-of-bag.jpg)
+
+![](images/09-rpi-bag-next-to-box.jpg)
 
 
