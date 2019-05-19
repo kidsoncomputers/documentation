@@ -68,3 +68,5 @@ https://www.youtube.com/watch?v=ihfwSlBQ0VU
 ![](images/09-rpi-bag-next-to-box.jpg)
 
 
+After the kit is fully packaged in the zip-lock bag, the original boxes and manuals can be discarded.
+
