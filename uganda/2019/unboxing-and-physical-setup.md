@@ -1,12 +1,11 @@
 ## Raspberry Pi
 ### Unboxing and Physical Setup
+These instructions describe how to unbox and setup the CanaKit Raspberry Pi, without software installation. The goal is to get each kit setup and packaged into a zip-lock bag for compact transportation to Uganda.  All kits are unboxed and ready for transportation, go to [Operating System Setup](operating-system-setup-raspbian.md) next.
 
-#### Kit
-The Rapsberry Pi Kits being used for KoC/Mwebaza schools
-in Uganda is:
-* [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Edition, Premium Black Case)](https://www.amazon.com/dp/B07BCC8PK7)
+**Kit:** [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Edition, Premium Black Case)](https://www.amazon.com/dp/B07BCC8PK7)
 
-#### Setup
+_Bonus_
+Make some KoC/Mwebaza sticker(s) to go on the outside of each RPi case!
 
 ----
 ##### Unboxed
@@ -19,6 +18,11 @@ in Uganda is:
 ![](images/02-rpi-heatsinks-before.jpg)
 
 ----
+##### Heat Sink Installation Video
+
+http://www.youtube.com/watch?v=Xg5n56x9Y7A
+
+----
 ##### After 1st Heat Sink
 
 ![](images/03-rpi-heatsinks-1.jpg)
@@ -27,6 +31,12 @@ in Uganda is:
 ##### After 2nd Heat Sink
 
 ![](images/04-rpi-heatsinks-2.jpg)
+
+----
+##### Raspberry Pi Case Assembly
+
+https://www.youtube.com/watch?v=ihfwSlBQ0VU
+
 
 ----
 ##### In case
@@ -45,9 +55,7 @@ in Uganda is:
 
 
 ----
-##### Contents packaged in zip-lock bag
-
-Components in bag:
+##### Components in bag
 * Raspberry Pi in Case
   * Including 32GB card inserted into SD slot
 * USB MicroSD Card Reader
