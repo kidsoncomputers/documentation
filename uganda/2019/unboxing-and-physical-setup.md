@@ -4,8 +4,7 @@ These instructions describe how to unbox and setup the CanaKit Raspberry Pi, wit
 
 **Kit:** [CanaKit Raspberry Pi 3 B+ (B Plus) Starter Kit (32 GB EVO+ Edition, Premium Black Case)](https://www.amazon.com/dp/B07BCC8PK7)
 
-_Bonus_
-Make some KoC/Mwebaza sticker(s) to go on the outside of each RPi case!
+_Bonus_: Make some KoC/Mwebaza sticker(s) to go on the outside of each RPi case!
 
 ----
 ##### Unboxed
