@@ -11,3 +11,15 @@
 * After downloading, unzip and install to a 32GB SD card following instructions (Linux, Windows, MacOS) here:
   * https://www.raspberrypi.org/documentation/installation/installing-images/README.md
 
+### Insert SD Card into Pi and Boot
+
+:exclamation: :hourglass_flowing_sand: (work in progress)
+
+* ...
+
+### Verify installation
+
+:exclamation: :hourglass_flowing_sand: (work in progress)
+
+* WiFi 
+* ...?
