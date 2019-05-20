@@ -2,6 +2,12 @@
 # Sound and Video - audio utility
 audacious
 
+# Office - dictionary
+gnome-dictionary
+
+# Accessories - PDF Viewer
+evince
+
 # Programming - text/code editor
 geany
 
