@@ -16,6 +16,7 @@ biogenesis
 
 # Games - memory activities
 childsplay
+pairs
 
 # Office - Docs, spreadsheets, presentations (like MS Office)
 libreoffice
