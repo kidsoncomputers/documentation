@@ -1,40 +1,107 @@
-ace-of-penguins
-aspell
-audacious
-biogenesis
-blinken
-childsplay
-dia
-extremetuxracer
-galculator
-gamine
-gbrainy
-gcompris
-gimp
-gnome-chess
-gnome-sudoku
-kalzium
-kgeography
-ktouch
-kturtle
-kwordquiz
-laby
-libreoffice
-marble
-onboard
-pychess
-pysiogame
-ri-li
-scratch
-stellarium
-supertux
-tuxmath
-tuxpaint
-tuxpuck
-tuxtype
-ubuntu-edu-preschoolubuntu-edu-primary
-ubuntu-edu-secondary
-ubuntu-edu-tertiary
 
-# Variety - automatic desktop changer
-variety
+# Sound and Video - audio utility
+audacious
+
+# Programming - text/code editor
+geany
+
+# Education - artificial life evolution simulation
+biogenesis
+
+# Games - memory activities
+childsplay
+
+# Office - Docs, spreadsheets, presentations (like MS Office)
+libreoffice
+
+# Games - pacman-like game
+hannah
+
+# Games - lemmings clone
+pingus
+
+# Games - lead water to storage tank
+vodovod
+
+# Graphics - Diagrams and charts
+dia
+
+# Games
+## ExtremeTuxRacer too slow on Pi; requires OpenGL
+###extremetuxracer
+
+# Games
+minecraft-pi
+
+# Games - 36 games
+brainparty
+
+# Accessories - scientific calculator
+galculator
+
+# Games - basic drawing/letters for young children (2yrs +)
+gamine
+
+# Games - logic puzzles, memory
+gbrainy
+
+# Education - basic computer skills for young kids
+gcompris
+
+# Graphics - advanced graphical editing
+gimp
+
+# Education - math games
+tuxmath
+
+# Education - typing tutor and games
+tuxtype
+
+# Education - Logic board design
+smartsim
+
+# Games
+gnome-chess
+
+# Games
+gnome-sudoku
+
+# Programming - Easy programming for ages 8+
+scratch2
+
+# Education - basic geography and quizzes
+kgeography
+
+# Education - geography
+marble
+
+# Programming - learn programming while creating music
+sonic-pi
+
+# Games - learn programming languages with ants and spider webs
+laby
+
+# Games - Educational games, ages 3-10
+pysiogame
+
+# Games - train game
+ri-li
+
+# Education - simple drawing program for young children
+tuxpaint
+
+# Games - air hockey
+tuxpuck
+
+# Graphics - image editors
+mypaint
+mirage
+
+# Sound and Video - video player
+vlc
+
+# Sound and Video - audio player
+qmmp
+
+
+
