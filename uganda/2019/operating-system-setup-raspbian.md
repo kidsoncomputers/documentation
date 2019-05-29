@@ -18,8 +18,9 @@
 #### Config
 
 * On first boot, select the following settings:
-  * Country: Uganda
-  * Language: Ganda
+  * Country: ZM (Zambia)
+  * Language: English
+    * These settings are used to ensure software packages are shown in English. Choosing `lg (Ganda)` results in some packages showing English, and others showing limited Ganda translations
   * Timezone: Kampala
   * Use US keyboard: Yes
   * Password: `mwebaza`
@@ -52,7 +53,5 @@
   
 ### Verify installation
 
-:exclamation: :hourglass_flowing_sand: (work in progress)
-
 * WiFi 
-* ...?
+  * You should be able to join a WiFi network and connect to the Internet
