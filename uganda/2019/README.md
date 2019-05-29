@@ -1,18 +1,34 @@
 ## Kids on Computers / Mwebaza Foundation
 Jul - Aug 2019
 
-#### Lab Overview
+----
+### Lab Overview
 * 3 computer labs
   * 15 Raspberry Pi Student Workstations per lab
   * 1 Raspberry Pi Media Server per lab
 
+----
 ### Raspberry Pi Setup - Student Workstations
-  1. [Unboxing and Physical Setup](unboxing-and-physical-setup.md)
+
+#### [Unboxing and Physical Setup](unboxing-and-physical-setup.md)
+
+#### Software Installation
+A Raspberry Pi can be installed with KoC/Mwebaza packages and customizations using a pre-built image, or by following manual steps.
+
+##### Pre-built KoC/Mwebaza Image
+_coming soon_
+
+##### Manual Steps
+To prepare a workstation for KoC/Mwebaza labs from scratch, follow the steps below. This should result in the same installation as the pre-built image above.
   1. [Operating System Setup (Raspbian)](operating-system-setup-raspbian.md)
   1. [Software Package Installation](software-package-installation.md)
+  1. [KoC/Mwebaza Customization](koc-mwebaza-customization.md)
 
-### Media Server
-Start with a standard Raspberry Pi kit, but use a 128GB SD card
-  1. Follow #1 & #2 above to get Raspbian installed  
+
+----
+### Internet in a Box Media Server
+Start with a standard Raspberry Pi kit, but use a 128GB SD card.
+  1. Follow [Unboxing and Physical Setup]((unboxing-and-physical-setup.md)) guide
+  1. [Install Raspbian](operating-system-setup-raspbian.md)
   1. (coming soon)
 
