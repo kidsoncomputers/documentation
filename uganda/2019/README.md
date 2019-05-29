@@ -6,6 +6,9 @@ Jul - Aug 2019
 * 3 computer labs
   * 15 Raspberry Pi Student Workstations per lab
   * 1 Raspberry Pi Media Server per lab
+* Solar power used for some of the labs
+* Kids age 4-14; learning in English
+* Kids and Teachers have varying degrees of exposure to technology
 
 ----
 ### Raspberry Pi Setup - Student Workstations
