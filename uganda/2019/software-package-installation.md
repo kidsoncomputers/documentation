@@ -7,9 +7,9 @@
 mkdir -p koc/install
 ```
 
-* Using web browser, download the following files into `koc\install` folder created in the last step:
-  * [install-packages.sh](https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/install-packages.sh)
-  * [packages.txt](https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/packages.txt)
+* Using web browser, download the following files into `koc/install` folder created in the last step:
+  * https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/install-packages.sh
+  * https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/packages.txt
 
 * Return to the terminal and run:
 ```
