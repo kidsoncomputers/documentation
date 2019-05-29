@@ -1,10 +1,37 @@
 #!/bin/bash
+#
+# KoC/Mwebaza Raspberry Pi Desktop Customization
+#
+#
 
+# #########################
+# Bash aliases
+# #########################
+{
+cat << EOF
+alias ll='ls -l'
+EOF
+) > $HOME/.bash_aliases
+chmod u+x $HOME/.bash_aliases
+source $HOME/.bash_aliases
+
+# ####################################
+# KoC/Mwebaza Backgrounds
+# ####################################
+echo "Downloading KoC/Mwebaza background images ..."
+TARGETDIR="$HOME/Backgrounds/Mwebaza/"
+mkdir -p $TARGETDIR
+cd $TARGETDIR
+curl --remote-name https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2019/backgrounds/mwebaza-koc.jpg
+cd $HOME
+
+# #########################
+# Uganda Desktop Background
+#  images
+# #########################
 echo "Downloading Uganda background images licensed under Creative Commons Attribution-Share Alike 4.0 International license ..."
-
 TARGETDIR="$HOME/Backgrounds/Uganda/"
 mkdir -p $TARGETDIR
-
 cd $TARGETDIR
 curl --remote-name https://upload.wikimedia.org/wikipedia/commons/e/ee/Banded_groundling_%28Brachythemis_leucosticta%29_young_male.jpg
 curl --remote-name https://upload.wikimedia.org/wikipedia/commons/7/71/Black-headed_weaver_%28Ploceus_cucullatus_bohndorffi%29_male_nest_building.jpg
@@ -19,7 +46,6 @@ curl --remote-name https://upload.wikimedia.org/wikipedia/commons/f/f0/Topi_%28D
 curl --remote-name https://upload.wikimedia.org/wikipedia/commons/b/b3/Tree-climbing_lions_%28Panthera_leo%29.jpg
 curl --remote-name https://upload.wikimedia.org/wikipedia/commons/d/d7/Ugandan_defassa_waterbuck_%28Kobus_ellipsiprymnus_defassa%29_juvenile_male.jpg
 curl --remote-name https://upload.wikimedia.org/wikipedia/commons/3/37/Ugandan_kobs_%28Kobus_kob_thomasi%29_female_and_calf.jpg
-
 cat << LICENSE > license.txt
 # Images in this folder are licensed under Creative Commons Attribution-Share Alike 4.0 International license.
 #
@@ -60,21 +86,6 @@ cat << LICENSE > license.txt
 # 
 # By Charles J Sharp - Own work, from Sharp Photography, sharpphotography, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=54645361
 LICENSE
-
 cd $HOME
 
-# ####################################
-# KoC/Mwebaza Backgrounds
-# ####################################
-
-
-echo "Downloading KoC/Mwebaza background images ..."
-
-TARGETDIR="$HOME/Backgrounds/Mwebaza/"
-mkdir -p $TARGETDIR
-
-cd $TARGETDIR
-curl --remote-name https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2019/backgrounds/mwebaza-koc.jpg
-
-cd $HOME
 
