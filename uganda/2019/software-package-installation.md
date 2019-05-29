@@ -1,5 +1,7 @@
 ## Software Package Installation
 
+This may take several hours, depending on Internet connection speed
+
 * Install Raspbian first
 * Connect to WiFi
 * Open a terminal and run the following:
