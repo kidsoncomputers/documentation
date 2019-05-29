@@ -5,7 +5,6 @@
 * Open a terminal and run the following:
 ```
 mkdir -p koc/install
-cd koc/install
 ```
 
 * Using web browser, download the following files into `koc\install` folder created in the last step:
@@ -14,6 +13,7 @@ cd koc/install
 
 * Return to the terminal and run:
 ```
+cd koc/install
 chmod u+x install-packages.sh
 ./install-packages.sh
 ```
