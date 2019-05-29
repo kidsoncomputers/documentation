@@ -17,10 +17,11 @@
 
 #### Config
 
-* On first boot, select the following settings:
-  * Country: ZM (Zambia)
-  * Language: English
-    * These settings are used to ensure software packages are shown in English. Choosing `lg (Ganda)` results in some packages showing English, and others showing limited Ganda translations
+On first boot:
+* Use the Setup wizard to select the following settings:
+  * Country: Uganda
+  * Language: Ganda
+    * These settings will be changed later in order to get software packages in **English**.
   * Timezone: Kampala
   * Use US keyboard: Yes
   * Password: `mwebaza`
@@ -33,24 +34,22 @@
     * **Sometimes this update will fail if update servers are not reachable; we'll update packages again later**
     * Restart
  
- * On second boot,
-   * Re-check for updated packages:
-     * Menu, Preferences, Add/Remove Software
-     * Options, Check for Updates
-     * Install Updates
-     * When prompted for username and password, use:
-       * Identify:  `pi`
-       * Password:  `mwebaza`
-   * Restart:
-     * Menu, Shutdown, Reboot
-       
-     
- * Start **Web Browser** (Chromium)
-   * Select "No, thank you" when prompted to login
-   * Close the Adobe Flash Player tab
-   
-    
-  
+On second boot:
+* Re-check for updated packages:
+  * Menu, Preferences, Add/Remove Software
+  * Options, Check for Updates
+  * Install Updates
+  * When prompted for username and password, use:
+    * Identify:  `pi`
+    * Password:  `mwebaza`
+* Restart:
+  * Menu, Shutdown, Reboot
+
+On third boot:
+* Start **Web Browser** (Chromium)
+  * Select "No, thank you" when prompted to login
+  * Close the Adobe Flash Player tab
+
 ### Verify installation
 
 * WiFi 
