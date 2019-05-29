@@ -35,22 +35,30 @@ On first boot:
     * Restart
  
 On second boot:
+* Switch language back to **English**:
+  * (Most software packages are not translated into Ganda, so we'll use English instead ...)
+  * Click Menu, "Entegeka", Raspberry Pi Configuration, Localisation, Set Locale ...
+  * Change Language to `en (English)`
+  * Change Country to `ZM (Zambia)`
+  * Click OK twice
+  * Reboot
+
+On third boot:
 * Re-check for updated packages:
   * Menu, Preferences, Add/Remove Software
+  * Options, Refresh Package Lists
   * Options, Check for Updates
-  * Install Updates
-  * When prompted for username and password, use:
-    * Identify:  `pi`
-    * Password:  `mwebaza`
+  * If any updates are found:
+    * Install Updates
+    * When prompted for username and password, use:
+      * Identify:  `pi`
+      * Password:  `mwebaza`
 * Restart:
   * Menu, Shutdown, Reboot
 
-On third boot:
-* Start **Web Browser** (Chromium)
-  * Select "No, thank you" when prompted to login
+On fourth boot:
+* Start **Web Browser** (Menu, Internet, Chromium)
+  * Select "No thanks" when prompted to login to Google
   * Close the Adobe Flash Player tab
+  * Go to www.mwebaza.org to verify WiFi/network connectivity
 
-### Verify installation
-
-* WiFi 
-  * You should be able to join a WiFi network and connect to the Internet
