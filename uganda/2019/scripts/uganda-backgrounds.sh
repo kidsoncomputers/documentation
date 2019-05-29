@@ -62,3 +62,19 @@ cat << LICENSE > license.txt
 LICENSE
 
 cd $HOME
+
+# ####################################
+# KoC/Mwebaza Backgrounds
+# ####################################
+
+
+echo "Downloading KoC/Mwebaza background images ..."
+
+TARGETDIR="$HOME/Backgrounds/Mwebaza/"
+mkdir -p $TARGETDIR
+
+cd $TARGETDIR
+curl --remote-name https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2019/backgrounds/mwebaza-koc.jpg
+
+cd $HOME
+
