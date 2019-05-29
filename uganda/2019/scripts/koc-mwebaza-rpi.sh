@@ -7,7 +7,8 @@
 # #########################
 # Bash aliases
 # #########################
-{
+echo "Adding .bash_aliases ..."
+(
 cat << EOF
 alias ll='ls -l'
 EOF
