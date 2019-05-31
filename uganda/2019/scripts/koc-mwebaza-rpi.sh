@@ -5,6 +5,14 @@
 #
 
 # #########################
+# Install svn; needed
+#  to clone subfolders
+#  in github.com
+# #########################
+echo "Installing svn ..."
+sudo aptitude install svn
+
+# #########################
 # Bash aliases
 # #########################
 echo "Adding .bash_aliases ..."
@@ -22,8 +30,7 @@ source $HOME/.bash_aliases
 echo "Downloading KoC/Mwebaza background images ..."
 TARGETDIR="$HOME/Backgrounds/Mwebaza/"
 mkdir -p $TARGETDIR
-cd $TARGETDIR
-curl --remote-name https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2019/backgrounds/mwebaza-koc.jpg
+svn export https://github.com/kidsoncomputers/documentation/trunk/uganda/2019/backgrounds $TARGETDIR
 cd $HOME
 
 # #########################
