@@ -23,11 +23,11 @@ Follow the steps found here to copy the filesystem off of the SD card, then comp
 ### Compress
 Zip the file with maximum compression
 
-Example:
+In this example, an 8GB `.img` file is compress to a 4GB `.img.zip` file:
 ```
 $ ll koc-mwebaza-2019-v1.img
 -rw-r--r--. 1 root root  8288584192 May 30 20:11 koc-mwebaza-2019-v1.img
-$ zip -9 koc-mwebaza-2019-v1.img.zip koc-mwebaza-2019-v1.img```
+$ zip -9 koc-mwebaza-2019-v1.img.zip koc-mwebaza-2019-v1.img
   adding: koc-mwebaza-2019-v1.img (deflated 51%)
 $ ll koc-mwebaza-2019-v1.img.zip
 -rw-rw-r--. 1 tate tate  4054356734 May 30 20:49 koc-mwebaza-2019-v1.img.zip
@@ -36,12 +36,12 @@ $ ll koc-mwebaza-2019-v1.img.zip
 ### Upload the Image to kidsoncomputers.org
 With a .img file (and .zip) created it can optionally be uploaded to [kidsoncomputers.org/data](https://www.kidsoncomputers.org/data/) for sharing with others.  This may take several hours, depending on Internet speed.
 
-Also, to write to this location via `scp`, you'll need to get credentials. Check with a KoC Board Member (board@kidsoncomputers.org) if you need the credentials.
+Also, to write to this location via `scp`, you'll need to get credentials. Check with a KoC Board Member (email: board@kidsoncomputers.org) if you need the credentials.
 
 ```
 $ rsync -av --progress --partial \
   koc-mwebaza-2019-v1.img.zip \
-  {user}@kidsoncomputers.org:/home/kochosting/kidsoncomputers.org/web/data/projects/Uganda2019/
+  kochosting@kidsoncomputers.org:/home/kochosting/kidsoncomputers.org/web/data/projects/Uganda2019/
 
 kochosting@kidsoncomputers.org's password: 
 sending incremental file list
