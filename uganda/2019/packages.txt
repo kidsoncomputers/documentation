@@ -111,4 +111,6 @@ vlc
 qmmp
 
 
+# Misc utilities
+git-svn
 
