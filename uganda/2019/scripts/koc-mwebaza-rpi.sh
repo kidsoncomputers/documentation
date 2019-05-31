@@ -9,8 +9,8 @@
 #  to clone subfolders
 #  in github.com
 # #########################
-echo "Installing svn ..."
-sudo aptitude install svn
+echo "Installing subversion ..."
+sudo apt-get install -y subversion
 
 # #########################
 # Bash aliases
