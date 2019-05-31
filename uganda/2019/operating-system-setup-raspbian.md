@@ -17,9 +17,11 @@
 
 #### Config
 
-* On first boot, select the following settings:
+On first boot:
+* Use the Setup wizard to select the following settings:
   * Country: Uganda
   * Language: Ganda
+    * These settings will be changed later in order to get software packages in **English**.
   * Timezone: Kampala
   * Use US keyboard: Yes
   * Password: `mwebaza`
@@ -32,27 +34,31 @@
     * **Sometimes this update will fail if update servers are not reachable; we'll update packages again later**
     * Restart
  
- * On second boot,
-   * Re-check for updated packages:
-     * Menu, Preferences, Add/Remove Software
-     * Options, Check for Updates
-     * Install Updates
-     * When prompted for username and password, use:
-       * Identify:  `pi`
-       * Password:  `mwebaza`
-   * Restart:
-     * Menu, Shutdown, Reboot
-       
-     
- * Start **Web Browser** (Chromium)
-   * Select "No, thank you" when prompted to login
-   * Close the Adobe Flash Player tab
-   
-    
-  
-### Verify installation
+On second boot:
+* Switch language back to **English**:
+  * (Most software packages are not translated into Ganda, so we'll use English instead ...)
+  * Click Menu, "Entegeka", Raspberry Pi Configuration, Localisation, Set Locale ...
+  * Change Language to `en (English)`
+  * Change Country to `ZM (Zambia)`
+  * Click OK twice
+  * Reboot
 
-:exclamation: :hourglass_flowing_sand: (work in progress)
+On third boot:
+* Re-check for updated packages:
+  * Menu, Preferences, Add/Remove Software
+  * Options, Refresh Package Lists
+  * Options, Check for Updates
+  * If any updates are found:
+    * Install Updates
+    * When prompted for username and password, use:
+      * Identify:  `pi`
+      * Password:  `mwebaza`
+* Restart:
+  * Menu, Shutdown, Reboot
 
-* WiFi 
-* ...?
+On fourth boot:
+* Start **Web Browser** (Menu, Internet, Chromium)
+  * Select "No thanks" when prompted to login to Google
+  * Close the Adobe Flash Player tab
+  * Go to www.mwebaza.org to verify WiFi/network connectivity
+
