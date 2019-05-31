@@ -1,7 +1,7 @@
 # KoC/Mwebaza Raspberry Pi Image
 
 * Download compressed .img file:
-  * https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip
+  * https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip (3.8GB)
 * Unzip the file
 * (Optional) Verify, using `sha256sum`.  See hashes below.
 * Use [Etcher or other software](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to write the .img file to a new SD Card
