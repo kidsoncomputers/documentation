@@ -9,8 +9,12 @@
 #  to clone subfolders
 #  in github.com
 # #########################
-echo "Installing subversion ..."
-sudo apt-get install -y subversion
+if [ -f /usr/bin/svn ] ; then
+    echo "svn is already installed."
+else
+    echo "Installing subversion ..."
+    sudo apt-get install -y subversion
+fi
 
 # #########################
 # Bash aliases
@@ -29,8 +33,10 @@ source $HOME/.bash_aliases
 # ####################################
 echo "Downloading KoC/Mwebaza background images ..."
 TARGETDIR="$HOME/Backgrounds/Mwebaza/"
+REPO="https://github.com/kidsoncomputers/documentation"
+REPOPATH="uganda/2019/backgrounds"
 mkdir -p $TARGETDIR
-svn export https://github.com/kidsoncomputers/documentation/trunk/uganda/2019/backgrounds $TARGETDIR
+svn export --force $REPO/trunk/$REPOPATH $TARGETDIR
 cd $HOME
 
 # #########################
