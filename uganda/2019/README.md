@@ -15,6 +15,7 @@ Jul - Aug 2019
 #### Software Installation
 A Raspberry Pi can be installed with KoC/Mwebaza packages and customizations using a pre-built image, or by following manual steps
 * [Pre-built KoC/Mwebaza Image](koc-mwebaza-raspberry-pi-image.md) (Fastest)
+  * Zipped Image file: [koc-mwebaza-2019-v1.img.zip](https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip) (3.8GB)
 * [Raspberry Pi Software Install for KoC/Mwebaza Labs - Manual Steps](koc-mwebaza-raspberry-pi-software-install-manual-steps.md)
 
 ----
