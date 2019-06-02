@@ -17,7 +17,7 @@ A Raspberry Pi can be installed with KoC/Mwebaza packages and customizations usi
 
 | Pre-Built Image | Manual Steps |
 | ---- | ---- |
-| [koc-mwebaza-2019-v1.img.zip](https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip) (3.8GB)<br /> - [Installation Steps](koc-mwebaza-raspberry-pi-image.md) | [Manually install Raspbian, educational apps, and KoC/Mwebaza customizations](koc-mwebaza-raspberry-pi-software-install-manual-steps.md) |
+| [koc-mwebaza-2019-v1.img.zip](https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip) (3.8GB)<br /> - [Installation Steps](koc-mwebaza-raspberry-pi-image.md) | Install Raspbian, educational apps, and KoC/Mwebaza customizations:<br /> - [Manual Install](koc-mwebaza-raspberry-pi-software-install-manual-steps.md) |
 
 ----
 ### Internet in a Box Media Server
