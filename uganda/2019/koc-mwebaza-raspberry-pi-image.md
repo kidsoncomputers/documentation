@@ -1,6 +1,6 @@
 # KoC/Mwebaza Raspberry Pi Image
 
-* Download compressed .img file:
+* Download compressed `.img.zip` file:
   * https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v1.img.zip (3.8GB)
 * Unzip the file
 * (Optional) Verify, using `sha256sum`.  See hashes below.
