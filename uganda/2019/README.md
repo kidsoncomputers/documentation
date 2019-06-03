@@ -21,9 +21,5 @@ A Raspberry Pi can be installed with KoC/Mwebaza packages and customizations usi
 
 ----
 ### Internet in a Box Media Server
-Start with a standard Raspberry Pi kit, but use a 128GB SD card.
-  1. Follow [Unboxing and Physical Setup]((unboxing-and-physical-setup.md)) guide
-  1. Use 128GB SD Card
-  1. [Install Raspbian](operating-system-setup-raspbian.md)
-  1. [IIAB Setup](iiab-setup.md)
+Each classroom has an Internet-in-a-Box media server, configured using [these instructions](iiab-setup.md).
 
