@@ -31,7 +31,17 @@ even be connected to a projector, we start with the complete KoC/Mwebaza Student
 workstation installation image.  This image is based on Raspbian, plus has several
 educational applications installed.
 
-1. Follow [Student Workstation](README.md) instructions first
+* Follow [Student Workstation](README.md) instructions first
 
 
 ## Internet In A Box Setup and Configuration
+
+* Start Raspberry Pi
+* Connect to Internet, using ethernet if available
+* Start IIAB install with the following command:
+  * `curl d.iiab.io/install.txt | sudo bash`
+* IIAB Setup Options:
+  * iiab-admin password:  `g0admin`
+  * Choose **3 - BIG-sized**
+  * Do not edit local_vars.yml
+  * ....
