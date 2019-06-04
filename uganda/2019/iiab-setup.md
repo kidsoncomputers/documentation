@@ -42,6 +42,6 @@ educational applications installed.
   * `curl d.iiab.io/install.txt | sudo bash`
 * IIAB Setup Options:
   * iiab-admin password:  `g0admin`
-  * Choose **3 - BIG-sized**
+  * Choose **2 - MEDIUM-sized**
   * Do not edit local_vars.yml
   * ....
