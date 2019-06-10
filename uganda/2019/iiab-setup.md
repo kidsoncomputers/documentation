@@ -71,7 +71,6 @@ Go to http://box/admin/ (default password [here](http://wiki.laptop.org/go/IIAB/
   * wiktionary_en_all_novid
   * vikidia_en_all
   * wikispecies_en_all_novid
-  * 
 * If using 256GB SD Card, consider adding some of these:
   * wikipedia_en_all_novid (80GB)
   * gutenberg_en_all (53GB)
