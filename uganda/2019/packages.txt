@@ -94,14 +94,15 @@ ri-li
 # Games - Minecraft (basic edition, built for pi)
 minecraft-pi
 
-# Games - Similar to Minecraft, more advanced than minecraft-pi
-#         Also can be played on local network
+# Games - Similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server
 ### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
 ###   - Open Terminal
 ###   - Run "sudo raspi-config"
 ###     - Advanced Options
 ###     - GL Driver
 ###     - GL (Full KMS)
+###
+### Note: Enabling Open GL Driver can make VLC video playback choppy
 minetest
 minetest-server
 
