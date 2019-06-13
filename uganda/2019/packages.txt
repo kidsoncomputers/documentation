@@ -37,9 +37,6 @@ dia
 ## ExtremeTuxRacer too slow on Pi; requires OpenGL
 ###extremetuxracer
 
-# Games
-minecraft-pi
-
 # Games - 36 games
 brainparty
 
@@ -94,6 +91,20 @@ pysiogame
 # Games - train game
 ri-li
 
+# Games - Minecraft (basic edition, built for pi)
+minecraft-pi
+
+# Games - Similar to Minecraft, more advanced than minecraft-pi
+#         Also can be played on local network
+### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
+###   - Open Terminal
+###   - Run "sudo raspi-config"
+###     - Advanced Options
+###     - GL Driver
+###     - GL (Full KMS)
+minetest
+minetest-server
+
 # Education - simple drawing program for young children
 tuxpaint
 
@@ -114,3 +125,8 @@ qmmp
 # Misc utilities
 git-svn
 subversion
+tcpdump
+nmap
+netstat
+pydf
+
