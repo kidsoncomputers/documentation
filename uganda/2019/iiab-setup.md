@@ -102,12 +102,13 @@ Go to http://box/admin/ (default password [here](http://wiki.laptop.org/go/IIAB/
   * Africa (10.39GB)
 
 #### Khan Academy Videos (KA Lite)
-By enabling `transmission_kalite_languages: english` in `/etc/iiab/local_vars.yaml` during setup, Khan Academy videos should have started downloading via bittorrent in the background.  Monitor the progress at http://box:9091/, and follow instructions on [IIAB FAQ](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) to complete install after download is complete.
+By enabling `transmission_kalite_languages: english` in `/etc/iiab/local_vars.yaml` during setup, Khan Academy videos should have started downloading via bittorrent in the background.  Monitor the progress at http://box:9091/, and follow instructions on [IIAB FAQ](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) to complete install after download finishes.
 
 
 ----
 ### Customize Menu
 With content downloaded, we need to customize the menu that is shown when users go to the IIAB [home page](http://box/home). To customize, go to http://box/admin/, then **Content Menus**, then **Content Item List**.
 
-_coming soon_
+```
 
+```
