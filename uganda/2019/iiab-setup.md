@@ -7,7 +7,7 @@ Each lab includes an offline **Media Server**, with educational materials
 for use within the classroom over a WiFi network.
 
 The media server is a Raspberry Pi, just like the student workstations, plus:
-* Larger SD Card (128GB)
+* Larger SD Card (128GB or 256GB)
 * [Internet-in-a-Box](http://internet-in-a-box.org) platform, which includes:
   * Web Server and other daemons
   * Content
