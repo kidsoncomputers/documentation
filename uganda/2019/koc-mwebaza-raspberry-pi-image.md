@@ -8,7 +8,7 @@
 * Use **Etcher** or other software (https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to write the .img file to a new SD Card
 * Insert into Raspberry Pi and boot
 * Initial boot takes a bit longer than normal as the filesystem is unpacked, etc.
-
+* For help with this image, contact Kids on Computers mailing list via email: kidsoncomputers@kidsoncomputers.org
 
 
 ### File Verification
