@@ -94,7 +94,7 @@ ri-li
 # Games - Minecraft (basic edition, built for pi)
 minecraft-pi
 
-# Games - Similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server
+# Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server.
 ### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
 ###   - Open Terminal
 ###   - Run "sudo raspi-config"
