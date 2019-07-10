@@ -7,7 +7,7 @@ Each lab includes an offline **Media Server**, with educational materials
 for use within the classroom over a WiFi network.
 
 The media server is a Raspberry Pi, just like the student workstations, plus:
-* Larger SD Card (128GB or 256GB)
+* Large SD Card (256GB)
 * [Internet-in-a-Box](http://internet-in-a-box.org) platform, which includes:
   * Web Server and other daemons
   * Content
@@ -35,6 +35,7 @@ educational applications installed.
 
 
 ## IIAB Initial Setup and Configuration
+IIAB version 7.0 (preview-1) was used in this installation. Newer versions may have newer installation instructions.  See https://github.com/iiab for details.
 
 * Start Raspberry Pi
 * Connect to Internet, using ethernet if available
@@ -71,35 +72,44 @@ Go to http://box/admin/ (default password [here](http://wiki.laptop.org/go/IIAB/
   * wiktionary_en_all_novid
   * vikidia_en_all
   * wikispecies_en_all_novid
-* If using 256GB SD Card, consider adding some of these:
+* If using 256GB SD Card, consider adding:
   * wikipedia_en_all_novid (80GB)
-  * gutenberg_en_all (53GB)
-  * crashcourse_en_all (18GB)
 
 #### OER2Go(RACHEL) Modules
-* For 128GB SD Card:
-  * African Storybook Project
-  * Algebra2Go
-  * Bino & Fino
-  * Blockly Games
-  * Book Dash Books
-  * Boundless (Static)
-  * Cat and Dog Books
-  * English Storybooks
-  * Hesperian Health Guides
-  * Mustard Seed Books
-  * OER Africa
-  * Teacher Training
-  * UNESCO's IICBA Electronic Library
-  * WikEM: Global Emergency Medicine Wiki
-  * Women in African History
-  * World Map (Zoom 10)
-  * openstax Textbooks
+* African Storybook Project
+* Algebra2Go
+* Bino & Fino
+* Blockly Games
+* Book Dash Books
+* Boundless Textbooks
+* CK-12: High quality textbooks
+* Cat and Dog Books
+* Core Knowledge
+* English Storybooks
+* Feed the Monster
+* Great Books of the World
+* Hesperian Health Guides
+* Infonet-Biovision
+* Math Expression
+* Mustard Seed Books
+* OER Africa
+* Practical Action
+* Teacher Training
+* UNESCO's IICBA Electronic Library
+* WikEM: Global Emergency Medicine Wiki
+* Women in African History
+* World Map (Zoom 10)
+* openstax Textbooks
   
+#### Maps
+* For 256GB SD Card:
+  * OpenStreetMap: 18 Levels of Zoom for Africa (10.56GB)
+    * (Use `Install Content`, `Get Map Region` to download)
 
-#### Map Region
-* For 128GB SD Card:
-  * Africa (10.39GB)
+#### Other Modules
+These modules are installed by editing `/etc/iiab/local_vars.yml` and running `sudo iiab`.
+* Calibre-Web
+* Sugarizer
 
 #### Khan Academy Videos (KA Lite)
 By enabling `transmission_kalite_languages: english` in `/etc/iiab/local_vars.yaml` during setup, Khan Academy videos should have started downloading via bittorrent in the background.  Monitor the progress at http://box:9091/, and follow instructions on [IIAB FAQ](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) to complete install after download finishes.
@@ -109,6 +119,7 @@ By enabling `transmission_kalite_languages: english` in `/etc/iiab/local_vars.ya
 ### Customize Menu
 With content downloaded, we need to customize the menu that is shown when users go to the IIAB [home page](http://box/home). To customize, go to http://box/admin/, then **Content Menus**, then **Content Item List**.
 
-```
+Drag/drop titles as appropriate to make all installed content available on the Home page.
 
-```
+In some cases, menu items required editing.  These files were found in `/library/www/html/js-menu/menu-files/menu-defs/`.
+
