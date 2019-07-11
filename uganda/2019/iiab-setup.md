@@ -148,6 +148,6 @@ The entire operating system and all IIAB content files can be backed-up from an 
 * Locate the path to the backup file on your filesystem
 * Using a multicard reader, insert the 256GB SD card that you want to restore the image to, note the device (e.g. `/dev/sdb`)
 * Execute the following command (as root) to decompress the backup file and write it to the SD card:
-  * `gunzip /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz | dd of=/dev/sdb status=progress bs=1M`
+  * `gunzip -c /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz | dd of=/dev/sdb status=progress bs=1M`
   * Wait ... this may take several hours
 * When complete, insert the SD card into a Raspberry Pi and boot to verify
