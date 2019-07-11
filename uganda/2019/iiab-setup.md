@@ -128,7 +128,7 @@ In some cases, menu items required editing.  These files were found in `/library
 The entire operating system and all IIAB content files can be backed-up from an SD card, and restored to a new SD card.
 
 #### Prerequisites
-* This instructions assume you are using a modern version of Linux (including Raspbian)
+* Use a modern version of Linux (including Raspbian)
   * Your distro of Linux will need support for the `exfat` file systems, due to the very large size of the backup file
     * Linux packages `exfat-utils` and `fuse-exfat` (sometimes `exfat-fuse`) provide this
 * You will need a disk where you can write a very large file, with up to 256GB of free space, such as:
