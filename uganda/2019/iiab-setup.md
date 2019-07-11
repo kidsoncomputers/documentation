@@ -123,3 +123,31 @@ Drag/drop titles as appropriate to make all installed content available on the H
 
 In some cases, menu items required editing.  These files were found in `/library/www/html/js-menu/menu-files/menu-defs/`.
 
+----
+### Backup/Restore
+The entire operating system and all IIAB content files can be backed-up from an SD card, and restored to a new SD card.
+
+#### Prerequisites
+* This instructions assume you are using a modern version of Linux (including Raspbian)
+  * Your distro of Linux will need support for the `exfat` file systems, due to the very large size of the backup file
+    * Linux packages `exfat-utils` and `fuse-exfat` (sometimes `exfat-fuse`) provide this
+* You will need a disk where you can write a very large file, with up to 256GB of free space, such as:
+  * Local file system on laptop hard drive
+  * Or, a 256GB+ USB Flash Drive, with an `exfat` filesystem
+  
+#### Backup
+* Using a multicard reader, insert the SD card containing the IIAB system, note the device (e.g. `/dev/sdb`)
+* (Optional) Insert the USB Flash Drive, and mount it (e.g. `/run/media/user/USBDisk/`)
+* Execute the following command (as root) to create a gzipped backup of the IIAB filesystem:
+  * `dd if=/dev/sdb status=progress bs=1M | gzip > /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz`
+  * Wait ... this may take several hours
+* When complete, the `.img.gz` file will be very large, but should be significantly less than 256GB
+
+#### Restore
+* (Optional) Insert the USB Flash Drive containing the backup file in `.img.gz` format
+* Locate the path to the backup file on your filesystem
+* Using a multicard reader, insert the 256GB SD card that you want to restore the image to, note the device (e.g. `/dev/sdb`)
+* Execute the following command (as root) to decompress the backup file and write it to the SD card:
+  * `gunzip /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz | dd of=/dev/sdb status=progress bs=1M`
+  * Wait ... this may take several hours
+* When complete, insert the SD card into a Raspberry Pi and boot to verify
