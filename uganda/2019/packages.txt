@@ -116,6 +116,9 @@ tuxpuck
 mypaint
 mirage
 
+# Graphics - screenshot
+shutter
+
 # Sound and Video - video player
 vlc
 
@@ -130,4 +133,6 @@ tcpdump
 nmap
 netstat
 pydf
+
+
 
