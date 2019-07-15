@@ -5,8 +5,6 @@ To prepare a workstation for KoC/Mwebaza labs from scratch, follow the steps bel
   1. [Software Package Installation](software-package-installation.md) - Downloads and installs software packages (may take several hours, depending on Internet connection)
   1. [KoC/Mwebaza Customization](koc-mwebaza-customization.md) - Downloads some background images and other customizatios
   1. Reboot
-  1. Right-click desktop, choose **Desktop Preferences**, **Desktop**, **Picture**, then select a background image from `pi/Backgrounds` folder
-  1. Turn off bluetooth (save power): Click bluetooth icon at top left, choose **Turn off Bluetooth**
 
 Following these steps results in a running Raspberry Pi image that uses about 8GB of the SD Card.
 
