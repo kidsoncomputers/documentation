@@ -16,7 +16,16 @@ These steps work best on a Linux host, although they may be possible on other OS
 
 ### Clone Raspberry Pi SD Card to .img file
 Follow the steps found here to copy the filesystem off of the SD card, then compress it make the image:
-  * https://medium.com/platformer-blog/creating-a-custom-raspbian-os-image-for-production-3fcb43ff3630
+* https://medium.com/platformer-blog/creating-a-custom-raspbian-os-image-for-production-3fcb43ff3630
+  
+In short, the steps are:
+* Insert the 32GB SD card into a multicard reader, and insert into a Linux laptop:
+* Discover the device name (mine was `/dev/sdc`)
+* Copy the entire 32GB into a local file:
+  * `sudo dd if=/dev/sdc of=koc-mwebaza-2019-v1-full.img bs=4M status=progress`
+* Use [PiShrink](https://github.com/Drewsif/PiShrink) to make an image file that is only as big as the actual used space in the card:
+  * `sudo ./pishrink.sh koc-mwebaza-2019-v1-full.img koc-mwebaza-2019-v1.img`
+  * The resulting `.img` file, when written to a new SD card, will autoexpand on first boot.
 
 ### Compress
 Zip the file with maximum compression
