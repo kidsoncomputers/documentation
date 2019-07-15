@@ -61,11 +61,5 @@ On fourth boot:
   * Select "No thanks" when prompted to login to Google
   * Close the Adobe Flash Player tab
   * Go to www.mwebaza.org to verify WiFi/network connectivity
-* Enable Open GL:
-  * Open Terminal
-  * Run `sudo raspi-config`
-    * Advanced Options
-    * GL Driver
-    * GL (Full KMS) - Enable
   * Reboot
 
