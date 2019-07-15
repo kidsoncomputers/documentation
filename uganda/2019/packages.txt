@@ -131,7 +131,6 @@ git-svn
 subversion
 tcpdump
 nmap
-netstat
 pydf
 
 
