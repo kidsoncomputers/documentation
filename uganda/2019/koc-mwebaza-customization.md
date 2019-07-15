@@ -22,10 +22,23 @@ chmod u+x koc-mwebaza-rpi.sh
 
 * Right-click desktop, choose **Desktop Preferences**, **Desktop**, **Picture**, then select a background image from `pi/Backgrounds` folder
 
-#### Set browser homepage to Internet in a Box
+#### (Optional) Join `Internet in a Box` WiFi Network
+* If `Internet in a Box` WiFi network is available, join the network so that the  workstation will remember and re-join when booted.
 
-* Open Web Browser (Chromium)
-
+#### Add browser bookmark for `Internet in a Box` home page
+(Follow these steps only if on `Internet in a Box` WiFi network)
+* Create bookmark to Internet in a Box home page
+  * Open Web Browser (Chromium)
+  * Go to `http://box/home/`
+  * Click **Star** to create bookmark
+    * Name: "Internet in a Box"
+    * Folder: Bookmarks bar
+* Show bookmarks bar
+  * Click three dots in Chromium
+  * Go to Bookmarks, then "Show bookmarks bar"
+* Remove "Apps"
+  * Right-click on bookmarks bar
+  * De-select "Show apps shortcut"
 
 #### Other
 * Turn off bluetooth (save power): Click bluetooth icon at top left, choose **Turn off Bluetooth**
