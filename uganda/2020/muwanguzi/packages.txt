@@ -84,6 +84,7 @@ sonic-pi
 
 # Programming - PHP
 php
+php-common
 php-json
 php-pear
 php-curl
@@ -91,7 +92,6 @@ php-dev
 php-gd
 php-mbstring
 php-zip
-php-pdo
 php-xml
 
 # Games - learn programming languages with ants and spider webs
