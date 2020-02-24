@@ -97,6 +97,9 @@ php-xml
 # Programming - Documentation
 zeal
 
+# Programming - SQLite Database
+sqlite3
+
 # Games - learn programming languages with ants and spider webs
 laby
 
