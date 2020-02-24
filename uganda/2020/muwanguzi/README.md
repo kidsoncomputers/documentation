@@ -7,8 +7,8 @@ Feb - Mar 2020
 ### Lab Overview
 
 - https://www.kidsoncomputers.org/locations/uganda/muwanguzi-high-school
-- 15 Raspberry Pi 4 (4GB) Student Workstations
-- 1 Raspberry Pi 4 (4GB) Media Server
+- 15 Raspberry Pi 4 (4GB RAM, 32GB SDCard) Student Workstations
+- 1 Raspberry Pi 4 (4GB RAM, 256GB SDCard) Media Server
 
 ---
 
