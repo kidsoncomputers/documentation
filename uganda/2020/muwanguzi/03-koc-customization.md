@@ -71,7 +71,6 @@ Python 2
 Python 3
 React
 SQLite
-Vim
 jQuery
 jQuery UI
 ```
