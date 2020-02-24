@@ -94,6 +94,9 @@ php-mbstring
 php-zip
 php-xml
 
+# Programming - Documentation
+zeal
+
 # Games - learn programming languages with ants and spider webs
 laby
 
