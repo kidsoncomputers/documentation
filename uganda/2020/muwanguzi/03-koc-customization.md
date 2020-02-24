@@ -42,6 +42,49 @@ wget -O vs-code-install.sh https://code.headmelted.com/installers/apt.sh
 sudo sh vs-code-install.sh
 ```
 
+#### Download Zeal Docsets
+Zeal is an offline documentation viewer. It is included for installation on the [package list](packages.txt), but docsets for specific languages need to be downloaded.
+
+* Open Zeal (Programming, Zeal)
+* Select Tools, Docsets ...
+* From the Available tab, install the following (or more)
+```
+Angular
+AngularJS
+Apache HTTP Server
+Bash
+Bootstrap 4
+C
+C++
+CMake
+CSS
+HTML
+JavaScript
+Java SE12
+Markdown
+MySQL
+NodeJS
+PHP
+Perl
+PostgreSQL
+Python 2
+Python 3
+React
+SQLite
+Vim
+jQuery
+jQuery UI
+```
+
+Some of the docsets (Javascript, HTML, CSS, etc.) don't render correctly, until the following fix is applied:
+
+```
+pushd "$HOME/.local/share/Zeal/Zeal/docsets" >/dev/null || return
+find . -iname 'react-main*.js' -exec rm '{}' \;
+popd >/dev/null || exit
+```
+
+
 #### Change background
 
 - Right-click desktop, choose **Desktop Preferences**, **Desktop**, **Picture**, then select a background image from `pi/Backgrounds` folder
