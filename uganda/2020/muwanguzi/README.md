@@ -22,9 +22,9 @@ Follow instructions for [unboxing and physical setup](../../2019/unboxing-and-ph
 
 We will install Raspbian, add several packages, customize the settings/background, and then make a complete image that can be used to update all of the Pis.
 
-- (01-operating-system-setup-raspbian.md)
-- (02-software-package-installation.md)
-- (03-koc-customization.md)
+- [01-operating-system-setup-raspbian.md](01-operating-system-setup-raspbian.md)
+- [02-software-package-installation.md](02-software-package-installation.md)
+- [03-koc-customization.md](03-koc-customization.md)
 
 #### Create Cloned Image
 
