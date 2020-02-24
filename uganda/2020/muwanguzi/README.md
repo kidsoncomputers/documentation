@@ -1,25 +1,47 @@
-## Kids on Computers / Mwebaza Foundation
-Jul - Aug 2019
+## Kids on Computers / Muwanguzi High School Lab
 
-----
+Feb - Mar 2020
+
+---
+
 ### Lab Overview
-* 3 computer labs
-  * 15 Raspberry Pi Student Workstations per lab
-  * 1 Raspberry Pi Media Server per lab
 
-----
+- https://www.kidsoncomputers.org/locations/uganda/muwanguzi-high-school
+- 15 Raspberry Pi 4 (4GB) Student Workstations
+- 1 Raspberry Pi 4 (4GB) Media Server
+
+---
+
 ### Raspberry Pi Setup - Student Workstations
 
-#### [Unboxing and Physical Setup](unboxing-and-physical-setup.md)
+#### Unboxing and Physical Setup
+
+Follow instructions for [unboxing and physical setup](../../2019/unboxing-and-physical-setup.md) of Raspberry Pi 3 Canakit, plus [https://youtu.be/7rcNjgVgc-I?t=268](add the fan) that comes with the Raspberry Pi 4 Canakit.
 
 #### Software Installation
-A Raspberry Pi can be installed with KoC/Mwebaza packages and customizations using a pre-built image, or by following manual steps. Once installed, the operating system and applications take about 8GB of space, so this should be done with an SD Card that is at least 16GB:
 
-| Pre-Built Image | Manual Steps |
-| ---- | ---- |
-| [koc-mwebaza-2019-v2.img.zip](https://www.kidsoncomputers.org/data/projects/Uganda2019/koc-mwebaza-2019-v2.img.zip) (3.8GB)<br /> - [Installation Steps](koc-mwebaza-raspberry-pi-image.md) | Install Raspbian, educational apps, and KoC/Mwebaza customizations<br /> - [Manual Install](koc-mwebaza-raspberry-pi-software-install-manual-steps.md) |
+We will install Raspbian, add several packages, customize the settings/background, and then make a complete image that can be used to update all of the Pis.
 
-----
+- (01-operating-system-setup-raspbian.md)
+- (02-software-package-installation.md)
+- (03-koc-customization.md)
+
+#### Create Cloned Image
+
+These steps describe how to clone a customized Raspbian installation to an image file, for duplication to other SD Cards.
+
+- (clone-image.md)
+
+#### Complete Image
+
+A snapshot of the customized OS plus packages is coming soon
+
+[Download Here](https://www.kidsoncomputers.org/data/projects/Uganda2020/) (unknown size)
+
+---
+
 ### Internet in a Box Media Server
-Each classroom has an Internet-in-a-Box media server, configured using [these instructions](iiab-setup.md).
 
+Setup an Internet in a Box media server on Raspberry Pi with these instructions:
+
+- [Internet in a Box on Raspberry Pi](iiab-setup.md)

@@ -91,11 +91,7 @@ pysiogame
 # Games - train game
 ri-li
 
-# Games - Minecraft (basic edition, built for pi)
-minecraft-pi
-
-# Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server.
-### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
+# Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. Can play networked games. 
 ###   - Open Terminal
 ###   - Run "sudo raspi-config"
 ###     - Advanced Options
@@ -106,18 +102,12 @@ minecraft-pi
 minetest
 minetest-server
 
-# Education - simple drawing program for young children
-tuxpaint
-
 # Games - air hockey
 tuxpuck
 
 # Graphics - image editors
-mypaint
 mirage
-
-# Graphics - screenshot
-shutter
+pinta
 
 # Sound and Video - video player
 vlc

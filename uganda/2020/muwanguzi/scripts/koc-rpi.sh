@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# KoC/Mwebaza Raspberry Pi Desktop Customization
+# KoC Raspberry Pi Desktop Customization
+# Uganda Muwanguzi High School Lab
 #
 #
 
@@ -31,10 +32,10 @@ source $HOME/.bash_aliases
 # ####################################
 # KoC/Mwebaza Backgrounds
 # ####################################
-echo "Downloading KoC/Mwebaza background images ..."
-TARGETDIR="$HOME/Backgrounds/Mwebaza/"
+echo "Downloading KoC background images ..."
+TARGETDIR="$HOME/Backgrounds/KidsOnComputers/"
 REPO="https://github.com/kidsoncomputers/documentation"
-REPOPATH="uganda/2019/backgrounds"
+REPOPATH="uganda/2020/muwanguzi/backgrounds"
 mkdir -p $TARGETDIR
 svn export --force $REPO/trunk/$REPOPATH $TARGETDIR
 cd $HOME
