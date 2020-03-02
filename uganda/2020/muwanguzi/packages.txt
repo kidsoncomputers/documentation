@@ -33,6 +33,9 @@ vodovod
 # Graphics - Diagrams and charts
 dia
 
+# Graphics - Screenshot
+gnome-screenshot
+
 # Games
 ## ExtremeTuxRacer too slow on Pi; requires OpenGL
 ###extremetuxracer
