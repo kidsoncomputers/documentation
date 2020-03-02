@@ -2,7 +2,7 @@
 
 _Kids on Computers - Muwanguzi High School Lab_<br />
 _Uganda_<br />
-_Feb 2020_<br />
+_Mar 2020_<br />
 
 The media server is a Raspberry Pi, just like the student workstations, plus:
 
@@ -25,7 +25,7 @@ and more.
 ## Raspberry Pi Setup
 
 Since the media server may also act as a teacher's workstation (at times, it may
-even be connected to a projector, we start with the complete KoC/Mwebaza Student
+even be connected to a projector, we start with the complete Student
 workstation installation image. This image is based on Raspbian, plus has several
 educational applications installed.
 
@@ -71,12 +71,7 @@ Go to http://box/admin/ (default password [here](http://wiki.laptop.org/go/IIAB/
 
 - wikipedia_en_for-schools
 - wikibooks_en_all_novid
-- wikispecies_en_all_novid
-- wikipedia_en_uganda
-- wiktionary_en_all_novid
-- vikidia_en_all
-- wikispecies_en_all_novid
-- wikipedia_en_all_novid (80GB)
+- wikipedia_en_all_novid (79GB)
 
 #### OER2Go(RACHEL) Modules
 
@@ -117,6 +112,7 @@ These modules are installed by editing `/etc/iiab/local_vars.yml` and running `s
 
 - Calibre-Web
 - Sugarizer
+- NextCloud
 
 #### Khan Academy Videos (KA Lite)
 
@@ -147,6 +143,7 @@ The entire operating system and all IIAB content files can be backed-up from an 
 
   - Local file system on laptop hard drive
   - Or, a 256GB+ USB Flash Drive, with an `exfat` filesystem
+    - For example, you could create a partition on a large USB drive with: `sudo mkfs.exfat /dev/sdb1`
 
 #### Backup
 
