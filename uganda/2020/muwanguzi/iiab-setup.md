@@ -77,42 +77,31 @@ Go to http://box/admin/ (default password [here](http://wiki.laptop.org/go/IIAB/
 
 - African Storybook Project
 - Algebra2Go
-- Bino & Fino
 - Blockly Games
 - Book Dash Books
 - Boundless Textbooks
 - CK-12: High quality textbooks
-- Cat and Dog Books
-- Core Knowledge
-- English Storybooks
-- Feed the Monster
+- Educate!
 - Great Books of the World
 - Hesperian Health Guides
-- Infonet-Biovision
-- Math Expression
 - Mustard Seed Books
-- OER Africa
-- Practical Action
-- Teacher Training
-- UNESCO's IICBA Electronic Library
-- WikEM: Global Emergency Medicine Wiki
+- OpenStax Textbooks
+- Raspberry Pi Beginners Guide & User Guide
+- Saylor Academy Textbooks
 - Women in African History
-- World Map (Zoom 10)
-- openstax Textbooks
 
 #### Maps
 
-- For 256GB SD Card:
-  - OpenStreetMap: 18 Levels of Zoom for Africa (10.56GB)
-    - (Use `Install Content`, `Get Map Region` to download)
+- OpenStreetMap: 18 Levels of Zoom for Africa (10.56GB)
+  - (Use `Install Content`, `Get Map Region` to download)
 
 #### Other Modules
 
 These modules are installed by editing `/etc/iiab/local_vars.yml` and running `sudo iiab`.
 
-- Calibre-Web
-- Sugarizer
 - NextCloud
+- Calibre-Web (disabled, since we don't have any books)
+- Sugarizer
 
 #### Khan Academy Videos (KA Lite)
 
@@ -144,13 +133,14 @@ The entire operating system and all IIAB content files can be backed-up from an 
   - Local file system on laptop hard drive
   - Or, a 256GB+ USB Flash Drive, with an `exfat` filesystem
     - For example, you could create a partition on a large USB drive with: `sudo mkfs.exfat /dev/sdb1`
+    - Or, use Linux `Disks` utility to create an exfat partition, named `iiab-mar-2020` or similar
 
 #### Backup
 
 - Using a multicard reader, insert the SD card containing the IIAB system, note the device (e.g. `/dev/sdb`)
-- (Optional) Insert the USB Flash Drive, and mount it (e.g. `/run/media/user/USBDisk/`)
+- (Optional) Insert the USB Flash Drive, and mount it (e.g. `/run/media/user/iiab-mar-2020/`)
 - Execute the following command (as root) to create a gzipped backup of the IIAB filesystem:
-  - `dd if=/dev/sdb status=progress bs=1M | gzip > /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz`
+  - `dd if=/dev/sdb status=progress bs=1M | gzip > /run/media/user/iiab-mar-2020/koc-muwanguzi-iiab-mar-2020-v1.img.gz`
   - Wait ... this may take several hours
 - When complete, the `.img.gz` file will be very large, but should be significantly less than 256GB
 
@@ -160,6 +150,6 @@ The entire operating system and all IIAB content files can be backed-up from an 
 - Locate the path to the backup file on your filesystem
 - Using a multicard reader, insert the 256GB SD card that you want to restore the image to, note the device (e.g. `/dev/sdb`)
 - Execute the following command (as root) to decompress the backup file and write it to the SD card:
-  - `gunzip -c /run/media/user/USBDisk/koc-mwebaza-iiab-media-server-2019-v1.img.gz | dd of=/dev/sdb status=progress bs=1M`
+  - `gunzip -c /run/media/user/iiab-mar-2020/koc-muwanguzi-iiab-mar-2020-v1.img.gz | dd of=/dev/sdb status=progress bs=1M`
   - Wait ... this may take several hours
 - When complete, insert the SD card into a Raspberry Pi and boot to verify
