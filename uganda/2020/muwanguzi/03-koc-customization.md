@@ -1,9 +1,10 @@
 ### KoC/Mwebaza Customization
+These steps further customize the desktop experience, and prepare the OS for usage by students.
 
 #### Download desktop background images
 
 - Install Raspbian first
-- Connect to WiFi
+- Connect to a WiFi access point with access to the Internet
 - Open a terminal and run the following:
 
 ```
@@ -87,12 +88,15 @@ popd >/dev/null || exit
 #### Change background
 
 - Right-click desktop, choose **Desktop Preferences**, **Desktop**, **Picture**, then select a background image from `pi/Backgrounds` folder
+- You may also need to adjust the background color and/or the text color for desktop icons
 
 #### (Optional) Join `Internet in a Box` WiFi Network
 
 - If `Internet in a Box` WiFi network is available, join the network so that the workstation will remember and re-join when booted.
 
-#### Add browser bookmark for `Internet in a Box` home page
+#### Chromium Browser setup
+
+##### Add browser bookmark for `Internet in a Box` home page
 
 (Follow these steps only if on `Internet in a Box` WiFi network)
 
@@ -103,12 +107,26 @@ popd >/dev/null || exit
     - Name: "Internet in a Box"
     - Folder: Bookmarks bar
 - Show bookmarks bar
-  - Click three dots in Chromium
+  - Click menu (three dots)
   - Go to Bookmarks, then "Show bookmarks bar"
 - Remove "Apps"
   - Right-click on bookmarks bar
   - De-select "Show apps shortcut"
 
+##### Clear cache, cookies, history
+This will help ensure a fresh setup, and minimize the size of the installation image.
+
+- Open Chromium
+- Use menu (three dots) to get to Settings
+- Using search bar, type `cache`
+- Scroll down and select `Clear browsing data`
+- Select Time range: All time, and Clear Data
+
 #### Other
 
 - Turn off bluetooth (save power): Click bluetooth icon at top left, choose **Turn off Bluetooth**
+
+#### Remove any unused packages
+- `sudo apt-get autoremove --purge` will remove unused packages and free up some disk space
+
+
