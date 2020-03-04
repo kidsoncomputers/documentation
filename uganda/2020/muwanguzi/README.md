@@ -20,7 +20,7 @@ Follow instructions for [unboxing and physical setup](../../2019/unboxing-and-ph
 
 #### Software Installation
 
-We will install Raspbian, add several packages, customize the settings/background, and then make a complete image that can be used to update all of the Pis.
+We will install Raspbian, add several packages and some content, customize the background, and make other configuration changes needed for a student workstation.
 
 - [01-operating-system-setup-raspbian.md](01-operating-system-setup-raspbian.md)
 - [02-software-package-installation.md](02-software-package-installation.md)
@@ -28,16 +28,17 @@ We will install Raspbian, add several packages, customize the settings/backgroun
 
 #### Create Cloned Image
 
-These steps describe how to clone a customized Raspbian installation to an image file, for duplication to other SD Cards.
+These steps describe how to clone a customized Raspbian installation to an image file, for duplication to other SD Cards, and upload to the KoC website for distribution.
 
 - [clone-image.md](clone-image.md)
 
-#### Complete Image
+#### Download Complete Workstation Image
 
 A snapshot of the customized OS plus packages is coming soon
 
 [Download Here](https://www.kidsoncomputers.org/data/projects/Uganda2020/) (unknown size)
 
+#### Write Image to SD Card
 Using the complete image file, write it to a 32GB+ SD card as follows:
 - Unzip the file
 - Use [**Etcher**](https://www.balena.io/etcher/) or other software (https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to write the .img file to a new SD Card
