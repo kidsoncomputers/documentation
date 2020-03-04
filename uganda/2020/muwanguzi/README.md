@@ -30,7 +30,7 @@ We will install Raspbian, add several packages, customize the settings/backgroun
 
 These steps describe how to clone a customized Raspbian installation to an image file, for duplication to other SD Cards.
 
-- (clone-image.md)
+- [clone-image.md](clone-image.md)
 
 #### Complete Image
 
