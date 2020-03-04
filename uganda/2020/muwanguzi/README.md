@@ -38,8 +38,15 @@ A snapshot of the customized OS plus packages is coming soon
 
 [Download Here](https://www.kidsoncomputers.org/data/projects/Uganda2020/) (unknown size)
 
----
+Using the complete image file, write it to a 32GB+ SD card as follows:
+- Unzip the file
+- Use **Etcher** or other software (https://www.raspberrypi.org/documentation/installation/installing-images/README.md) to write the .img file to a new SD Card
+- Insert into Raspberry Pi and boot
+- Initial boot takes a bit longer than normal as the filesystem is unpacked, etc.
+- For help with this image, contact Kids on Computers mailing list via email: kidsoncomputers@kidsoncomputers.org
 
+
+---
 ### Internet in a Box Media Server
 
 Setup an Internet in a Box media server on Raspberry Pi with these instructions:
