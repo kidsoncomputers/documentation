@@ -59,7 +59,7 @@ minetest_enabled: True
 
 ## Content Customization
 
-IIAB has many server applications and content choices. Follow these steps to install content appropriate for Uganda schools and that will fit on 128GB micro SD cards.
+IIAB has many server applications and content choices. Follow these steps to install content appropriate for Uganda schools and that will fit on 256GB micro SD cards.
 
 ---
 
