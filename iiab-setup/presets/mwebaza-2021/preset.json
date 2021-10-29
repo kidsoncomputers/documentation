@@ -1,0 +1,8 @@
+{
+  "name": "Mwebaza",
+  "description": "Used in Mwebaza, Uganda, but prototype for elsewhere",
+  "default_lang": "en",
+  "location": "Optional location this was installed",
+  "size_in_gb": 150,
+  "last_modified": "2021-10-18"
+}
