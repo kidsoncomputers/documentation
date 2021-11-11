@@ -22,7 +22,7 @@ The IIAB base image has most IIAB software installed, but no content. You can ob
 * Follow the instructions in https://github.com/iiab/iiab/wiki to install IIAB
  * `curl d.iiab.io/install.txt | sudo bash`
 * IIAB Setup Options:
-  * iiab-admin password:  `g0admin`
+  * iiab-admin password:  `g0adm1n`
   * Choose **1 - MIN-sized**
 
 ### Update the IIAB Server Softare
@@ -31,7 +31,7 @@ The IIAB base image has most IIAB software installed, but no content. You can ob
 * Ask IIAB developers
 * cd /opt/iiab/iiab
 * git pull
-* ./iiab-install --reinstal
+* ./iiab-install --reinstall
 
 ### Update the IIAB Admin software
 
