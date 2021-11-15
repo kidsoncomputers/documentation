@@ -27,8 +27,7 @@ The IIAB base image has most IIAB software installed, but no content. You can ob
 
 ### Update the IIAB Server Softare
 
-* This may or may not be necessary
-* Ask IIAB developers
+* DO NO DO THIS unless advised to by an IIAB developer
 * cd /opt/iiab/iiab
 * git pull
 * ./iiab-install --reinstal
