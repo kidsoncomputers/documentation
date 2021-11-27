@@ -1,5 +1,5 @@
 {
-  "zims": [],
+  "zims": ["wikipedia_en_all_maxi"],
   "modules": [
     "en-afristory",
     "en-algebra2go",
