@@ -33,6 +33,6 @@ Internet in a Box for these 2 labs is set up using the same content as is instal
 
 ### IIAB Administration
 
-- [What's Installed]()
+- [What's Installed](./Internet%20in%20a%20Box%20-%20Kids%20on%20Computers%20-%20Kenya.pdf)
 - [Administrator Notes](./iiab-administrator.md)
 
