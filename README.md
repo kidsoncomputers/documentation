@@ -1,6 +1,6 @@
 # Kids on Computers Technical Documentation
 
-#### [Kenya 2021](kenya/2021/README.md}
+#### [Kenya 2021](kenya/2021/README.md)
 
 #### [Uganda 2019](uganda/2019/README.md)
 
