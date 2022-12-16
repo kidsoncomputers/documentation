@@ -17,29 +17,51 @@ These instructions describe how to install [Internet in a Box](https://internet-
   * [Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows)
   * [Linux](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu)
   * [MacOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos)
-* Install Ubuntu Server.  Additional instructions [here](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+* Install Ubuntu.  Additional instructions [here](https://ubuntu.com/tutorials/install-ubuntu-desktop)
   * Can be installed in English or other language appropriate for the target environment
-  * When creating a user account, be sure to grant Administrator permissions.  Remember the username/password, as these credentials will be needed later to install IIAB.
 
-### 2. Download Internet in a Box
+### 2. Additional Ubuntu Setup
+* After initial Ubuntu set up is complete, connect to the Internet via ethernet or WiFi before proceeding.
+* Update any outdated packages:
+```
+sudo apt-get update && sudo apt-get upgrade
+```
 
-* Login to Ubuntu Server
-* Open a Terminal using any of these methods:
-  * Connect to the Ubuntu Server from a different computer via [SSH](https://help.ubuntu.com/community/SSH/OpenSSH/ConnectingTo)
-  * or, when logged into graphical user interface: `Ctrl + Shift + T`
-  * or, when logged into graphical user interface: Right-click the desktop, choose 
+* Install some packages we'll need later:
+```
+sudo apt-get install openssh-server net-tools curl
+```
+* In order to connect to this host from another computer via SSH, install/enable SSH and get its IP address. Open a terminal (`Crtl + Shift + T`):
+```
+# Install open-ssh and net-tools
+sudo apt-get install openssh-server net-tools
+
+# Enable ssh server
+sudo systemctl enable ssh --now
+
+# Start ssh server
+sudo systemctl start ssh
+
+# Get IP address
+hostname -I
+```
+
+### 3. Download Internet in a Box
+
+* Login to Ubuntu
+* Open a Terminal session via SSH or `Ctrl + Shift + T` on the desktop
 * Follow the instructions in https://github.com/iiab/iiab/wiki to install IIAB
  * `curl d.iiab.io/install.txt | sudo bash`
 * IIAB Setup Options:
   * iiab-admin password:  `g0adm1n`
   * Choose **1 - MIN-sized**
+* Follow prompts to update packages and reboot
+* Re-run `sudo iiab` after reboot
 
-----
-
-### 3. Add IIAB Configuration Preset
+### 4. Add IIAB Configuration Preset
 
 * Select a preset configuration from here (TBD)
-* Create a directory on the Ubuntu server to hold the preset files.  For example, if your preset is "MyIIAB2022":
+* Create a directory to hold the preset files.  For example, if your preset name is "MyIIAB2022":
   * `mkdir /opt/admin/cmdsrv/presets/MyIIAB2022/`
 * `cp` the contents of the presets directory in this folder
 * Using a browser connect to http:/box/admin over the hotspot or http:/<server ip>/admin on your lan
