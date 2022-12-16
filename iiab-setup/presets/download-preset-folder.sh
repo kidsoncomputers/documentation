@@ -6,7 +6,11 @@
 #  and PR: https://github.com/OzanCansel/download-github-folder/pull/1
 #
 # Usage:
-#  ./download-preset-folder.sh https://github.com/kidsoncomputers/documentation/tree/master/iiab-setup/presets/mwebaza-2021 mwebaza-2021
+#  ./download-preset-folder.sh <github-repo-folder> <target-folder>
+#
+# Example:
+#  cd /opt/admin/cmdsrv/presets/
+#  /opt/download-preset-folder.sh https://github.com/kidsoncomputers/documentation/tree/master/iiab-setup/presets/mwebaza-2021 mwebaza-2021
 #
 
 if [[ $# -lt 1 ]];
