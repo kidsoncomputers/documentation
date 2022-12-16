@@ -56,14 +56,25 @@ hostname -I
   * iiab-admin password:  `g0adm1n`
   * Choose **1 - MIN-sized**
 * Follow prompts to update packages and reboot
-* Re-run `sudo iiab` after reboot
+* Re (and re-run) `sudo iiab` multiple times until it completes without errors.
+ 
+
+At this point, IIAB is set up with basic structure, but only minimal content.
+
+You should be able to connect to the IIAB server using a browser at:
+* http://box (from Ubuntu)
+* http://<ip-address> (from another computer on same network)
+
+Go to the next step to install content.
+
 
 ### 4. Add IIAB Configuration Preset
 
-* Select a preset configuration from here (TBD)
-* Create a directory to hold the preset files.  For example, if your preset name is "MyIIAB2022":
-  * `mkdir /opt/admin/cmdsrv/presets/MyIIAB2022/`
-* `cp` the contents of the presets directory in this folder
+IIAB comes with a few preset configurations that are commonly used.
+ 
+Kids on Computers has a few additional presets for specific schools.
+ 
+* Follow instructions at [KoC IIAB Presets](https://github.com/kidsoncomputers/documentation/tree/master/iiab-setup/presets/) to install a preset config.
 * Using a browser connect to http:/box/admin over the hotspot or http:/<server ip>/admin on your lan
 * Login
 * Click Install Content
