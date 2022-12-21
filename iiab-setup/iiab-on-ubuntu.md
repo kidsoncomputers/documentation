@@ -19,9 +19,13 @@ These instructions describe how to install [Internet in a Box](https://internet-
   * [MacOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos)
 * Install Ubuntu.  Additional instructions [here](https://ubuntu.com/tutorials/install-ubuntu-desktop)
   * Can be installed in English or other language appropriate for the target environment
+  * Use the whole disk
+  * Setup a username and password that you'll remember for use later in this guide
+  * Install the default set of packages, or add more if this is a laptop that might be used by a teacher while also being used as the IIAB server
 
 ### 2. Additional Ubuntu Setup
 * After initial Ubuntu set up is complete, connect to the Internet via ethernet or WiFi before proceeding.
+* Open a Terminal (`Crtl + Shift + T`) to execute the following commands:
 * Update any outdated packages:
 ```
 sudo apt-get update && sudo apt-get upgrade
@@ -31,7 +35,8 @@ sudo apt-get update && sudo apt-get upgrade
 ```
 sudo apt-get install openssh-server net-tools curl
 ```
-* In order to connect to this host from another computer via SSH, install/enable SSH and get its IP address. Open a terminal (`Crtl + Shift + T`):
+
+* Install and enable SSH
 ```
 # Install open-ssh and net-tools
 sudo apt-get install openssh-server net-tools
@@ -47,9 +52,10 @@ hostname -I
 ```
 
 ### 3. Download Internet in a Box
+With Ubuntu installed and SSH server enabled, you can connect to the IIAB server from another computer to continue this setup (optional).
 
-* Login to Ubuntu
-* Open a Terminal session via SSH or `Ctrl + Shift + T` on the desktop
+Next, we'll download and set up IIAB:
+* Login to Ubuntu and open a Terminal session (`Ctrl + Shift + T`), or connect via ssh
 * Follow the instructions in https://github.com/iiab/iiab/wiki to install IIAB
  * `curl d.iiab.io/install.txt | sudo bash`
 * IIAB Setup Options:
