@@ -11,6 +11,7 @@ The IIAB base image has most IIAB software installed, but no content. You can ob
 ### 1. Use a Prebuilt Image
 
 * Download a suitable base from https://archive.org/details/internetinabox
+  * Also check [https://d.iiab.io] for newer images.
 * Choose List icon and Date Archived to get a list in chronological order)
 * Select an image that says Content Ready
 * In general take the most recent such image
