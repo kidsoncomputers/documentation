@@ -1,0 +1,37 @@
+{
+  "zims": [
+    "wikipedia_es_all_maxi",
+    "wiktionary_es_all_maxi",
+    "wikiquote_es_all_maxi",
+    "gcflearn_es_all_maxi",
+    "ecured_es_all",
+    "gutenberg_es_all",
+    "wikipedia_en_top_maxi",
+    "wikipedia_en_simple_all_maxi",
+    "phet_es",
+    "wiktionary_en_simple_all_maxi",
+    "crashcourse_en_top"
+  ],
+  "modules": [
+    "es-blockly-games",
+    "es-hesperian_health",
+    "es-medline_plus",
+    "es-soluciones",
+    "es-wikihow",
+    "es-bibliofilo",
+    "es-mustardseedbooks/MustardSeedBooksSP.html",
+    "es-ebooks",
+    "es-biblioteca"
+  ],
+  "maps": [
+    "osm-planet_z0-z10_2020.mbtiles",
+    "satellite_z0-z9_2020.mbtiles",
+    "osm_planet_z11-z14_2020.mbtiles"
+  ],
+  "kalite": {
+    "lang_code": "es",
+    "topics": [
+      "khan/"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "School Server in Spanish",
+  "description": "This version of IIAB has been installed in Columbia",
+  "default_lang": "es",
+  "location": "Columbia",
+  "size_in_gb": 110,
+  "last_modified": "2022-12-27"
+}
