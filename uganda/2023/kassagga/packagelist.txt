@@ -7,9 +7,9 @@
 ## ----------------------
 
 # Sound and Video
-audacious
-lmms
-blender
+###audacious
+###lmms
+###blender
 
 # Office - dictionary
 gnome-dictionary
@@ -21,7 +21,7 @@ evince
 geany
 
 # Education - artificial life evolution simulation
-biogenesis
+###biogenesis
 
 # Games - memory activities
 games-education
@@ -35,18 +35,11 @@ hannah
 # Games - lemmings clone
 pingus
 
-# Games - lead water to storage tank
-vodovod
-
 # Graphics
 dia
 inkscape
 gimp
 openshot-qt
-
-# Games
-supertuxkart
-supertux
 
 # Games - 36 games
 brainparty
@@ -69,9 +62,6 @@ gnome-sudoku
 # Programming - Easy programming for ages 8+
 scratch
 
-# Education - basic geography and quizzes
-kgeography
-
 # Education - geography
 marble
 
@@ -84,18 +74,12 @@ laby
 # Games - Educational games, ages 3-10
 pysiogame
 
-# Games - train game
-ri-li
-
 # Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. May be able to play networked games on IIAB server.
 minetest
 minetest-server
 
 # Education - simple drawing program for young children
 tuxpaint
-
-# Games - air hockey
-tuxpuck
 
 # Graphics - image editors
 mypaint
