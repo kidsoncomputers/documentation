@@ -16,3 +16,4 @@ xmakemol
 rp-bookshelf
 lynx
 bc 
+wolfram*
