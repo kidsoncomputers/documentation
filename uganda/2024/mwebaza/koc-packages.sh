@@ -30,7 +30,7 @@ else
 	exit
 fi
 
-cat $PACKAGE_FILE | grep -v -e '^$' -e '^#' | xargs sudo apt-get install -y
+cat $PACKAGE_FILE | grep -v -e '^$' -e '^#' | xargs sudo apt -m install -y
 
 echo "================================="
 echo "= Installs completed."
@@ -39,7 +39,10 @@ echo "= Proceeding with package"
 echo "= removal ..."
 echo "================================="
 
-cat $REMOVE_PACKAGE_FILE | grep -v -e '^$' -e '^#' | xargs sudo apt-get remove -y
+cat $REMOVE_PACKAGE_FILE | grep -v -e '^$' -e '^#' | xargs sudo apt -m remove -y
+
+sudo apt reinstall -y raspberrypi-ui-mods
 
 sudo apt autoremove -y
 
+sudo apt autoclean

@@ -38,11 +38,19 @@
 * First boot will take a few minutes 
 
 
+#### Create Bigger Swap File
+
+* The default swap file size with RPi OS is 100MB ... [too small](https://www.bitpi.co/2015/02/11/how-to-change-raspberry-pis-swapfile-size-on-rasbian)
+* Open a terminal and run the following commands to increase the swap file to 2048MB:
+* `sudo vi /etc/dphys-swapfile`
+* Look for line that contains `CONF_SWAPSIZE`, change value to 2048
+* Save, quit
+* `sudo /etc/init.d/dphys-swapfile stop`
+* `sudo /etc/init.d/dphys-swapfile start`
 
 
 #### Software Updates
 
-On first boot:
 * Join wifi
 * Open terminal, apply any software updates:
   * `sudo apt update`
@@ -78,12 +86,11 @@ chmod u+x koc-packages.sh
 #### Set Desktop Backgound and Bookmarks
 
 
-
-
-
 * Start **Web Browser** (Menu, Internet, Chromium)
-  * Select "No thanks" when prompted to login to Google
-  * Close the Adobe Flash Player tab
-  * Go to www.mwebaza.org to verify WiFi/network connectivity
-  * Reboot
+  * Set home page to `http://box`:
+    * Go to Chromium Settings
+    * Search for "on start-up"
+    * Choose "Open a specific page or set of pages"
+    * Enter `http://box`
+
 

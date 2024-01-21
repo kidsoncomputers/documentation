@@ -20,7 +20,7 @@ circuslinux
 cuyo
 hannah
 lbreakout2
-supertux2
+supertux
 tuxmath
 tuxpuck
 
