@@ -1,5 +1,5 @@
 
-# Remove packages that do not work well, or run slow, on RPi 3B
+# Remove packages that do not work well (or run slow) on RPi 3B
 code-the-classics
 smartsim
 stellarium

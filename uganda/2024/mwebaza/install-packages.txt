@@ -1,79 +1,65 @@
 
-# Accessories - PDF Viewer
-evince
 
+#################################
 # Debian Jr. - selected apps for education 
-junior-art 
-junior-education 
-junior-games-arcade
-junior-games-card
-junior-games-puzzle 
-junior-math 
-junior-typing 
+#  From junior-art 
+gcompris-qt
+gcompris-qt-data
+gimp
+gpaint
+pinta
+tuxpaint
 
-
-# Games - lemmings clone
-pingus
-
-# Games - lead water to storage tank
-vodovod
-
-# Graphics - Diagrams and charts
-dia
-
-
-# Games - 36 games
-brainparty
-
-# Accessories - scientific calculator
-galculator
-
-# Games - basic drawing/letters for young children (2yrs +)
-gamine
-
-# Games - logic puzzles, memory
+# From junior-education 
 gbrainy
+ktuberling
 
-
-# Education - math games
+# From junior-games-arcade
+2048-qt
+circuslinux
+cuyo
+hannah
+lbreakout2
+supertux2
 tuxmath
+tuxpuck
 
-# Education - typing tutor and games
+# From junior-games-card
+ace-of-penguins
+sgt-puzzles 
+
+# From junior-games-puzzle 
+brainparty
+frozen-bubble
+gbrainy
+monsterz
+ri-li 
+
+# From junior-math 
+kturtle
+littlewizard
+
+# From junior-typing 
+klavaro
+ktouch
 tuxtype
 
 
-# Games
-gnome-chess
+#########################
 
-# Games
+# Misc Games
+pingus
+gnome-chess
+gamine
 gnome-sudoku
 
-# Education - basic geography and quizzes
-kgeography
-
-# Education - geography
-marble
-
-# Programming - learn programming while creating music
-sonic-pi
-
-# Games - learn programming languages with ants and spider webs
-laby
-
-# Games - Educational games, ages 3-10
-pysiogame
-
-# Games - train game
-ri-li
-
-
-# Graphics - screenshot
+# Accessories
+galculator
 shutter
+evince
 
-
-# Sound and Video - audio player
-qmmp
-
+# Education
+kgeography
 
 # Misc utilities
 git-svn
@@ -81,9 +67,5 @@ subversion
 tcpdump
 nmap
 pydf
-
-
-gcompris-qt
-gcompris-qt-data
 
 
