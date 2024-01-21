@@ -48,9 +48,6 @@ gnome-chess
 # Games
 gnome-sudoku
 
-# Programming - Easy programming for ages 8+
-scratch2
-
 # Education - basic geography and quizzes
 kgeography
 
@@ -69,27 +66,6 @@ pysiogame
 # Games - train game
 ri-li
 
-# Games - Minecraft (basic edition, built for pi)
-minecraft-pi
-
-# Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server.
-### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
-###   - Open Terminal
-###   - Run "sudo raspi-config"
-###     - Advanced Options
-###     - GL Driver
-###     - GL (Full KMS)
-###
-### Note: Enabling Open GL Driver can make VLC video playback choppy
-minetest
-minetest-server
-
-# Games - air hockey
-tuxpuck
-
-# Graphics - image editors
-mypaint
-mirage
 
 # Graphics - screenshot
 shutter
