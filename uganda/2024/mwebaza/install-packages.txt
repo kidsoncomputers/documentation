@@ -1,0 +1,113 @@
+
+# Accessories - PDF Viewer
+evince
+
+# Debian Jr. - selected apps for education 
+junior-art 
+junior-education 
+junior-games-arcade
+junior-games-card
+junior-games-puzzle 
+junior-math 
+junior-typing 
+
+
+# Games - lemmings clone
+pingus
+
+# Games - lead water to storage tank
+vodovod
+
+# Graphics - Diagrams and charts
+dia
+
+
+# Games - 36 games
+brainparty
+
+# Accessories - scientific calculator
+galculator
+
+# Games - basic drawing/letters for young children (2yrs +)
+gamine
+
+# Games - logic puzzles, memory
+gbrainy
+
+
+# Education - math games
+tuxmath
+
+# Education - typing tutor and games
+tuxtype
+
+
+# Games
+gnome-chess
+
+# Games
+gnome-sudoku
+
+# Programming - Easy programming for ages 8+
+scratch2
+
+# Education - basic geography and quizzes
+kgeography
+
+# Education - geography
+marble
+
+# Programming - learn programming while creating music
+sonic-pi
+
+# Games - learn programming languages with ants and spider webs
+laby
+
+# Games - Educational games, ages 3-10
+pysiogame
+
+# Games - train game
+ri-li
+
+# Games - Minecraft (basic edition, built for pi)
+minecraft-pi
+
+# Games - MineTest is similar to Minecraft, but more advanced than minecraft-pi. Can play networked games on IIAB server.
+### Note: If graphics performance is slow, enable "Open GL Driver" as follows: 
+###   - Open Terminal
+###   - Run "sudo raspi-config"
+###     - Advanced Options
+###     - GL Driver
+###     - GL (Full KMS)
+###
+### Note: Enabling Open GL Driver can make VLC video playback choppy
+minetest
+minetest-server
+
+# Games - air hockey
+tuxpuck
+
+# Graphics - image editors
+mypaint
+mirage
+
+# Graphics - screenshot
+shutter
+
+
+# Sound and Video - audio player
+qmmp
+
+
+# Misc utilities
+git-svn
+subversion
+tcpdump
+nmap
+pydf
+
+
+gcompris-qt
+gcompris-qt-data
+
+

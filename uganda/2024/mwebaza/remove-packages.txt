@@ -1,0 +1,18 @@
+
+# Remove packages that do not work well, or run slow, on RPi 3B
+code-the-classics
+smartsim
+stellarium
+kicad*
+x11-apps
+x11-utils
+x11-xserver-utils
+bsdgames
+graphviz
+gtypist
+claws-mail
+dillo
+xmakemol
+rp-bookshelf
+lynx
+bc 
