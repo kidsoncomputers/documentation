@@ -17,3 +17,4 @@ rp-bookshelf
 lynx
 bc 
 wolfram*
+scratch3

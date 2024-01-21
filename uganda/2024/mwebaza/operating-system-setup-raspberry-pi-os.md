@@ -40,50 +40,47 @@
 
 
 
-
-
-#### Config
+#### Software Updates
 
 On first boot:
-* Use the Setup wizard to select the following settings:
-  * Country: Uganda
-  * Language: Ganda
-    * These settings will be changed later in order to get software packages in **English**.
-  * Timezone: Kampala
-  * Use US keyboard: Yes
-  * Password: `mwebaza`
-  * This screen shows a black border around the desktop: Yes
-  * WiFi
-    * Join your local WiFi network in order to continue installation
-  * Check for updates
-    * Raspbian will now update from Internet repos
-    * **This will take several minutes**
-    * **Sometimes this update will fail if update servers are not reachable; we'll update packages again later**
-    * Restart
- 
-On second boot:
-* Switch language back to **English**:
-  * (Most software packages are not translated into Ganda, so we'll use English instead ...)
-  * Click Menu, "Entegeka", Raspberry Pi Configuration, Localisation, Set Locale ...
-  * Change Language to `en (English)`
-  * Change Country to `ZM (Zambia)`
-  * Click OK twice
-  * Reboot
+* Join wifi
+* Open terminal, apply any software updates:
+  * `sudo apt update`
+  * `sudo apt upgrade -y`
+  * password: `mwebaza`
+* Reboot
 
-On third boot:
-* Re-check for updated packages:
-  * Menu, Preferences, Add/Remove Software
-  * Options, Refresh Package Lists
-  * Options, Check for Updates
-  * If any updates are found:
-    * Install Updates
-    * When prompted for username and password, use:
-      * Identify:  `pi`
-      * Password:  `mwebaza`
-* Restart:
-  * Menu, Shutdown, Reboot
 
-On fourth boot:
+#### Software Package Installation
+
+This may take several hours, depending on Internet connection speed
+
+* Install Raspbian first
+* Connect to WiFi
+* Open a terminal and run the following:
+```
+mkdir -p koc/install
+```
+
+* Using web browser, download the following files into `koc/install` folder created in the last step:
+  * https://github.com/kidsoncomputers/documentation/raw/master/uganda/2024/mwebaza/koc-packages.sh
+  * https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/mwebaza/install-packages.txt
+  * https://github.com/kidsoncomputers/documentation/raw/master/uganda/2019/mwebaza/remove-packages.txt
+
+* Return to the terminal and run:
+```
+cd koc/install
+chmod u+x koc-packages.sh
+./koc-packages.sh
+```
+
+
+#### Set Desktop Backgound and Bookmarks
+
+
+
+
+
 * Start **Web Browser** (Menu, Internet, Chromium)
   * Select "No thanks" when prompted to login to Google
   * Close the Adobe Flash Player tab
