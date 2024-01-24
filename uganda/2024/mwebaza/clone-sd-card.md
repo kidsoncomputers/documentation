@@ -33,12 +33,12 @@ $ ll koc-mwebaza-2024-v1.zip
 ```
 
 ### Upload the Image to kidsoncomputers.org
-With a .img file (and .zip) created it can optionally be uploaded to [kidsoncomputers.org/data](https://www.kidsoncomputers.org/data/) for sharing with others.  This may take several hours, depending on Internet speed.
+With a .img file (and .zip) created it can optionally be uploaded to [data.kidsoncomputers.org](http://data.kidsoncomputers.org) for sharing with others.  This may take several hours, depending on Internet speed.
 
 Also, to write to this location via `scp`, you'll need to get credentials. Check with a KoC Board Member (email: board@kidsoncomputers.org) if you need the credentials.
 
 ```
-$ scp koc-mwebaza-2024-v1.zip kochosting@kidsoncomputers.org:/home/kochosting/kidsoncomputers.org/web/data/projects/Uganda2024/
+$ scp koc-mwebaza-2024-v1.zip kochosting@kidsoncomputers.org:/home/kochosting/data.kidsoncomputers.org/projects/Uganda2024/
 The authenticity of host 'kidsoncomputers.org (64.90.52.49)' can't be established.
 ECDSA key fingerprint is SHA256:7qcYdp6XZeIEDP25VEOXjyJ/UblsgXjAIUo2wFwEFoQ.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
