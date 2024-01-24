@@ -1,7 +1,7 @@
 # KoC/Mwebaza Raspberry Pi Image
 
 * Download compressed `.img.zip` file:
-  * Go to https://www.kidsoncomputers.org/data/projects/Uganda2024/
+  * Go to https://data.kidsoncomputers.org/projects/Uganda2024/
   * Download the latest image file
   * As of Jan 2024, the latest image file is 3.7GB zipped, 11GB unzipped
 * Unzip the file
