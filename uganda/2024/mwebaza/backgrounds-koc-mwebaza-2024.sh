@@ -33,10 +33,16 @@ source $HOME/.bash_aliases
 # ####################################
 echo "Downloading KoC/Mwebaza background images ..."
 TARGETDIR="$HOME/Backgrounds/Mwebaza/"
-URL="https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2024/mwebaza/backgrounds/kph-bird-mwebaza-koc.png"
 mkdir -p $TARGETDIR
 cd $TARGETDIR
+
+URL="https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2024/mwebaza/backgrounds/kph-bird-mwebaza-koc.png"
 curl --remote-name "$URL"
+URL="https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2024/mwebaza/backgrounds/kph-elephant-mwebaza-koc.png"
+curl --remote-name "$URL"
+URL="https://raw.githubusercontent.com/kidsoncomputers/documentation/master/uganda/2024/mwebaza/backgrounds/kph-giraffes-mwebaza-koc.jpg"
+curl --remote-name "$URL"
+
 cd $HOME
 
 # #########################
