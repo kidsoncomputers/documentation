@@ -1,0 +1,10 @@
+{
+  "name": "Put a name or title here",
+  "description": "Put a longer description here",
+  "default_lang": "en or another code",
+  "location": "Optional location this was installed",
+  "root_size_in_k": 1435536344,
+  "libr_size_in_k": 0,
+  "size_in_gb": 1370,
+  "last_modified": "2024-02-28"
+}
